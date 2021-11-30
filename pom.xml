@@ -12,6 +12,7 @@
     <modules>
         <module>suqiu-service-api</module>
         <module>suqiu-service</module>
+        <module>suqiu-gateway</module>
     </modules>
 
     <groupId>com.suqiu</groupId>

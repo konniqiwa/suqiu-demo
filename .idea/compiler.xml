@@ -7,14 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="suqiu-user" />
-        <module name="suqiu-service-api" />
         <module name="suqiu-user-api" />
         <module name="suqiu-order" />
+        <module name="suqiu-gateway" />
         <module name="suqiu-order-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="suqiu" target="11" />
+      <module name="suqiu-gateway" target="11" />
       <module name="suqiu-order" target="11" />
       <module name="suqiu-order-api" target="11" />
       <module name="suqiu-service" target="11" />
@@ -26,6 +27,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="suqiu" options="-parameters" />
+      <module name="suqiu-gateway" options="-parameters" />
       <module name="suqiu-order" options="-parameters" />
       <module name="suqiu-order-api" options="-parameters" />
       <module name="suqiu-service" options="-parameters" />
