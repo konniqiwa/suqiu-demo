@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/suqiu.iml" filepath="$PROJECT_DIR$/suqiu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suqiu-service/suqiu-order/suqiu-order.iml" filepath="$PROJECT_DIR$/suqiu-service/suqiu-order/suqiu-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suqiu-service-api/suqiu-order-api/suqiu-order-api.iml" filepath="$PROJECT_DIR$/suqiu-service-api/suqiu-order-api/suqiu-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suqiu-service/suqiu-service.iml" filepath="$PROJECT_DIR$/suqiu-service/suqiu-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suqiu-service-api/suqiu-service-api.iml" filepath="$PROJECT_DIR$/suqiu-service-api/suqiu-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suqiu-service/suqiu-user/suqiu-user.iml" filepath="$PROJECT_DIR$/suqiu-service/suqiu-user/suqiu-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suqiu-service-api/suqiu-user-api/suqiu-user-api.iml" filepath="$PROJECT_DIR$/suqiu-service-api/suqiu-user-api/suqiu-user-api.iml" />
+    </modules>
+  </component>
+</project>
