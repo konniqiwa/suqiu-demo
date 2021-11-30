@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: suqiu-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 106.52.18.157:8848
+  datasource:
+    url: jdbc:mysql://106.52.18.157:3306/suqiu_user
+    username: root
+    password: suqiu
+ribbon:
+  # 值的是建立连接所用的时间，使用与网络状态正常的情况，两端连接所用的时间
+  ReadTimeout: 5000
+  # 指的是建立连接后从服务器读取到可用资源所用的时间
+  ConnectionTimeout: 5000
+server:
+  port: 8082
