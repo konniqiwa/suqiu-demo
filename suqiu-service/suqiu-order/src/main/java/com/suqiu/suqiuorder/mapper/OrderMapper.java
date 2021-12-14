@@ -2,6 +2,7 @@ package com.suqiu.suqiuorder.mapper;
 
 import com.suqiu.suqiuorder.entity.Order;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>

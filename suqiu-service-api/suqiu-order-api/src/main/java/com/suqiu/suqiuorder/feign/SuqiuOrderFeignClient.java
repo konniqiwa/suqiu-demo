@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/order")
 public interface SuqiuOrderFeignClient {
 
-    @GetMapping("/testFeign")
-    public String testFeign();
+//    @GetMapping("/testFeign")
+//    public String testFeign();
 }

@@ -1,4 +1,4 @@
-package com.suqiu.common;
+package com.suqiu.common.generator;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.annotation.FieldFill;
