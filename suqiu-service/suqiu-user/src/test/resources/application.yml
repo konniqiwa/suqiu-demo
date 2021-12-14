@@ -6,7 +6,7 @@ spring:
       discovery:
         server-addr: 106.52.18.157:8848
   datasource:
-    url: jdbc:mysql://101.33.230.220:3306/suqiu_user
+    url: jdbc:mysql://106.52.18.157:3306/suqiu_user
     username: root
     password: suqiu
 ribbon:

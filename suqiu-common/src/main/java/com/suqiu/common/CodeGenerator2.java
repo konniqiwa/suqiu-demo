@@ -38,16 +38,16 @@ public class CodeGenerator2 {
         mpg.setGlobalConfig(gc);
         //2、设置数据源
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://106.52.18.157:3306/xlr_ifactory_dev?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true");
+        dsc.setUrl("jdbc:mysql://101.33.230.220:3306/suqiu_user?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("suqiu");
+        dsc.setPassword("shujia");
         dsc.setDbType(DbType.MYSQL);
         mpg.setDataSource(dsc);
         //3、包的配置
         PackageConfig pc = new PackageConfig();
-        pc.setModuleName("rqd");
-        pc.setParent("org.springblade.modules");
+        pc.setModuleName("suqiuuser");
+        pc.setParent("com.suqiu");
         pc.setEntity("entity");
         pc.setMapper("mapper");
         pc.setService("service");
@@ -55,11 +55,11 @@ public class CodeGenerator2 {
         mpg.setPackageInfo(pc);
         //4、策略配置
         StrategyConfig strategy = new StrategyConfig();
-        strategy.setInclude("rqd_stock_flow"); // 设置要映射的表名
+        strategy.setInclude("user"); // 设置要映射的表名
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
         strategy.setEntityLombokModel(true); // 自动lombok；
-        strategy.setTablePrefix(pc.getModuleName() + "_"); // 表前缀
+//        strategy.setTablePrefix(pc.getModuleName() + "_"); // 表前缀
         strategy.setLogicDeleteFieldName("is_delete"); // 逻辑删除
         // 自动填充配置
         TableFill gmtCreate = new TableFill("create_time", FieldFill.INSERT);
