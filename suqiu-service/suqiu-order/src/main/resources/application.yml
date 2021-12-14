@@ -2,7 +2,7 @@ spring:
   application:
     name: suqiu-order
   datasource:
-    url: jdbc:mysql://106.52.18.157:3306/suqiu_order
+    url: jdbc:mysql://101.33.230.220:3306/suqiu_order
     username: root
     password: suqiu
   cloud:
